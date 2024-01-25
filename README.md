@@ -1,1 +1,1 @@
-# MyTextEditor-TinyMCE
+# MyTextEditor-TinyMCE: experiment purpose

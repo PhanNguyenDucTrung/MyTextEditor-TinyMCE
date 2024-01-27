@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My TextEditor</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous" />
+
+        <script
+            src="https://cdn.tiny.cloud/1/5i2a6eqgercd4hru4dqbpog93wsr5atvlq0nv3l4eti0fp4z/tinymce/6/tinymce.min.js"
+            referrerpolicy="origin"></script>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h1 class="text-center">Tiny MCE</h1>
+
+        <div class="container">
+            <h2>Getting Started</h2>
+            <textarea id="default-editor">
+              <p><em>Hello</em>, <span style="text-decoration: underline;"><strong>World!</strong></span>
+              </p>
+            </textarea>
+        </div>
+
+        <div class="container">
+            <h2>Configuration</h2>
+            <textarea id="editor-2">
+              <p><em>Hello</em>, <span style="text-decoration: underline;"><strong>World!</strong></span>
+              </p>
+            </textarea>
+        </div>
+
+        <div class="container">
+            <h2>Inline Editor</h2>
+            <div id="inline-editor">
+                <p>
+                    <em>Hello</em>, <span style="text-decoration: underline"><strong>World!</strong></span>
+                </p>
+            </div>
+
+            <div id="inline-editor-2"></div>
+        </div>
+
+        <div class="container">
+            <h2>Test: Editor Inside of Editor: (not work correctly)</h2>
+            <div id="outer-editor">
+                <div id="inner-editor">something</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Multiple Editor (p tạo sẵn cố định)</h2>
+            <div id="multiple-editor-1" class="col-4">
+                <p class="multiple-p-editor">Line 1</p>
+                <p class="multiple-p-editor">Line 2</p>
+                <p class="multiple-p-editor">Line 3</p>
+                <p class="multiple-p-editor">Line 4</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Ifixit Editor</h2>
+            <div id="ifixit-editor" class="col-4"></div>
+            <div>
+                <button class="btn btn-success" id="addBtn">Add</button>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>
